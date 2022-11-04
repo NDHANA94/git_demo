@@ -1,6 +1,6 @@
 # git_demo
 
-## $${\color{green}SSH Keys}$$
+## $${\color{green}{SSH Keys}}$$
 In order to push files to your github account, you have to prove to github that you are the owner of your account.
 The way this is done is using SSH Keys.
 
