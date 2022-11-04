@@ -47,7 +47,7 @@ The other key is the private key you have to keep secure on ur local machine, yo
     `-m` stands for message. There should be a message in order to commit your files.
 
 ### git remote:
-- 
+- add `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME`
 
 ### git push:
 `git push origin BRANCH_NAME`
@@ -67,7 +67,7 @@ The other key is the private key you have to keep secure on ur local machine, yo
     `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME` 
 - use: `git remote -v` to see any remote repository that u've connected to the repo.
 - `git push origin BARNCH_NAME` : to push the folder contains to the repo. 
-
+\\
 
 - set upstream just only to use `git push`: \
     `git push -u origin BRANCH_NAME` \
