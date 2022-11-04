@@ -63,7 +63,8 @@ The other key is the private key you have to keep secure on ur local machine, yo
 - copy the repository ssh address. (ex: git@github.com:ACCOUNT_NAME/REPOSITORY_NAME)
 - cd into folder you want to push to git
 - `git init` -> `git add .` -> `git commit -m "MESSAGE"` 
-- add remote origin(only for the first time): `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME` 
+- add remote origin(only for the first time): \
+    `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME` 
 - use: `git remote -v` to see any remote repository that u've connected to the repo.
 - `git push origin BARNCH_NAME` : to push the folder contains to the repo. 
 
