@@ -84,3 +84,11 @@ Download changes from remote repo to your local machine, the oppesite of push.
 - Add a new brance and switch to it:    `git checkout -b NEW_BRANCH_NAME`
 - Check and see the code that merging with: `git diff BRANCH_NAME`
 - Merge another branch to current branch: `git merge ANOTHER_BRANCH_NAME_TO_MERGE`
+
+## $${\color{green}{pull \ request \ (PR):}}$$
+- A request to have your code pulled into another branch.
+- Once we have made a PR, anyone can review our code, comment on it, ask us to make changes or updates. 
+- After u make a PR, u can also update the code just by making additional commit and pushing them up to github, as long as it's on the same branch that you're making the PR with.
+- Once the PR is merged, you will generally delete your feature or source brance, And to switch back to the master branch. Then when you want to make additional coding changes, you will create another new branch, and start the process over make your commits; make your commits, make a PR and then merge again. 
+
+
