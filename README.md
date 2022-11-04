@@ -47,7 +47,10 @@ The other key is the private key you have to keep secure on ur local machine, yo
     `-m` stands for message. There should be a message in order to commit your files.
 
 ### git remote:
-- add `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME`
+- set s new remote: `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME`
+- verify new remote: `git remote -v`
+- changing a remote repo's URL: 
+    `git remote set-url origin git@github.com:ACCOUNT_NAME/NEW_REPOSITORY_NAME`
 
 ### git push:
 `git push origin BRANCH_NAME`
