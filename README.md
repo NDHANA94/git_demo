@@ -21,17 +21,17 @@ The other key is the private key you have to keep secure on ur local machine, yo
 
 
 ## git commands
-- `clone`: Bring a reository that is hosted somwhere like Github into a folder on your local machine.
-- `add`: Track your files and changes in Git.
-- `commit`: save your files in Git.
-- `push`: Upload git commits to a remote repo, like github.
-- `pull`: Download changes from remote repo to your local machine, the oppesite of push.
-
+- `clone`: 
+- `add`: 
+- `commit`: 
+- `push`: 
+- `pull`: 
 
 ### git init:
 - `git init` : for initializing git for a folder in your local machine
 
 ### git clone: 
+Bring a reository that is hosted somwhere like Github into a folder on your local machine.
 - `cd` in to the folder on ur local machine that you want to clone the repo.
 - then, `git clone URL`
 
@@ -39,10 +39,12 @@ The other key is the private key you have to keep secure on ur local machine, yo
 - to see the current git status: `git status`
 
 ### git add:
+Track your files and changes in Git.
 - `git add .` for tracking all the files and folders in directory
 - `git add FILE_NAME` for tracking a specific file
 
 ### git commit:
+save your files in Git.
 - `git commit -m "YOUR MESSAGE"` 
     `-m` stands for message. There should be a message in order to commit your files.
 
@@ -53,9 +55,14 @@ The other key is the private key you have to keep secure on ur local machine, yo
     `git remote set-url origin git@github.com:ACCOUNT_NAME/NEW_REPOSITORY_NAME`
 
 ### git push:
+Upload git commits to a remote repo, like github.
 `git push origin BRANCH_NAME`
 - origin: an option set for us. It's basically a word that stands for the location of our git repo. 
 - BRANCH_NAME: the branch that we want to push to.
+
+### git pull:
+Download changes from remote repo to your local machine, the oppesite of push.
+- 
 
 
 ## starting git from github repo:
