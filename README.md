@@ -12,7 +12,7 @@
 In order to push files to your github account, you have to prove to github that you are the owner of your account.
 The way this is done is using SSH Keys.
 
-- you need to start by generating a key in your local machine:
+- you need to start by generating a key in your local machine: \
     `ssh-keygen -t rsa -b 4096 -C "nipun.dhananjaya@gmail.com"`
 - give a name to key
 - give a passphrase or leave it blank pressing Enter
