@@ -1,6 +1,6 @@
 # git_demo
 
-## $${\color{green}{SSH Keys}}$$
+## $${\color{green}{SSH \ Keys}}$$
 In order to push files to your github account, you have to prove to github that you are the owner of your account.
 The way this is done is using SSH Keys.
 
@@ -20,7 +20,7 @@ The other key is the private key you have to keep secure on ur local machine, yo
 - On github: settings -> SSH and GPG keys -> New SSH key ; give a title and paste the copied public key
 
 
-## git commands
+## $${\color{green}{git \ commands}}$$
 
 ### git init:
 - `git init` : for initializing git for a folder in your local machine
@@ -60,10 +60,10 @@ Download changes from remote repo to your local machine, the oppesite of push.
 - 
 
 
-## starting git from github repo:
+## $${\color{green}{starting \ git \ from \ github \ repo:}}$$
 - `git clone` -> edit files -> `git add` -> `git commit -m "MESSAGE"` -> `git push origin BRANCH_NAME`
 
-## starting git from local machine:
+## $${\color{green}{starting  \ git \ from \ local \ machine:}}$$
 - make a new empty repository in your github account giving the same name as the folder you want to upload(push)
 - copy the repository ssh address. (ex: git@github.com:ACCOUNT_NAME/REPOSITORY_NAME)
 - cd into folder you want to push to git
