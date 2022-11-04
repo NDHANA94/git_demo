@@ -56,7 +56,7 @@ Upload git commits to a remote repo, like github.
 - BRANCH_NAME: the branch that we want to push to.
 
 ### git pull:
-    Download changes from remote repo to your local machine, the oppesite of push.
+Download changes from remote repo to your local machine, the oppesite of push.
 
 
 
