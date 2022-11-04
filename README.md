@@ -21,11 +21,6 @@ The other key is the private key you have to keep secure on ur local machine, yo
 
 
 ## git commands
-- `clone`: 
-- `add`: 
-- `commit`: 
-- `push`: 
-- `pull`: 
 
 ### git init:
 - `git init` : for initializing git for a folder in your local machine
