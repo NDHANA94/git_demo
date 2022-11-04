@@ -82,3 +82,5 @@ Download changes from remote repo to your local machine, the oppesite of push.
 - To see the available branches:        `git branch`
 - Switch to another branch:             `git checkout BRANCH_NAME`
 - Add a new brance and switch to it:    `git checkout -b NEW_BRANCH_NAME`
+- Check and see the code that merging with: `git diff BRANCH_NAME`
+- Merge another branch to default/main branch: `git merge ANOTHER_BRANCH_NAME_TO_MERGE`
