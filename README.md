@@ -78,7 +78,7 @@ Download changes from remote repo to your local machine, the oppesite of push.
     `git push -u origin BRANCH_NAME` \
     now you can use just use `git push` to push the files to repo.
 
-## $${\color{green}{starting  \ git \ \ branching:}}$$
+## $${\color{green}{git \ \ branching:}}$$
 - To see the available branches:        `git branch`
 - Switch to another branch:             `git checkout BRANCH_NAME`
 - Add a new brance and switch to it:    `git checkout -b NEW_BRANCH_NAME`
