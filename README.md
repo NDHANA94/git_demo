@@ -66,7 +66,8 @@ The other key is the private key you have to keep secure on ur local machine, yo
 - add remote origin(only for the first time): `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME` 
 - use: `git remote -v` to see any remote repository that u've connected to the repo.
 - `git push origin BARNCH_NAME` : to push the folder contains to the repo. 
-' ' \
+
+
 - set upstream just only to use `git push`: \
     `git push -u origin BRANCH_NAME` \
     now you can use just use `git push` to push the files to repo.
