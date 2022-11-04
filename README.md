@@ -61,7 +61,7 @@ Download changes from remote repo to your local machine, the oppesite of push.
 
 
 ## $${\color{green}{starting \ git \ from \ github \ repo:}}$$
-- `git clone` -> edit files -> `git add` -> `git commit -m "MESSAGE"` -> `git push origin BRANCH_NAME`
+- `git clone` -> edit/add files/folders -> `git add` -> `git commit -m "MESSAGE"` -> `git push origin BRANCH_NAME`
 
 ## $${\color{green}{starting  \ git \ from \ local \ machine:}}$$
 - make a new empty repository in your github account giving the same name as the folder you want to upload(push)
