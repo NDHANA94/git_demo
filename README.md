@@ -1,13 +1,5 @@
 # git_demo
 
-## git commands
-- `clone`: Bring a reository that is hosted somwhere like Github into a folder on your local machine.
-- `add`: Track your files and changes in Git.
-- `commit`: save your files in Git.
-- `push`: Upload git commits to a remote repo, like github.
-- `pull`: Download changes from remote repo to your local machine, the oppesite of push.
-
-
 ## SSH Keys
 In order to push files to your github account, you have to prove to github that you are the owner of your account.
 The way this is done is using SSH Keys.
@@ -27,7 +19,53 @@ The other key is the private key you have to keep secure on ur local machine, yo
 - Copy the key.
 - On github: settings -> SSH and GPG keys -> New SSH key ; give a title and paste the copied public key
 
-## git push:
+
+## git commands
+- `clone`: Bring a reository that is hosted somwhere like Github into a folder on your local machine.
+- `add`: Track your files and changes in Git.
+- `commit`: save your files in Git.
+- `push`: Upload git commits to a remote repo, like github.
+- `pull`: Download changes from remote repo to your local machine, the oppesite of push.
+
+
+### git init:
+- `git init` : for initializing git for a folder in your local machine
+
+### git clone: 
+- `cd` in to the folder on ur local machine that you want to clone the repo.
+- then, `git clone URL`
+
+### git status:
+- to see the current git status: `git status`
+
+### git add:
+- `git add .` for tracking all the files and folders in directory
+- `git add FILE_NAME` for tracking a specific file
+
+### git commit:
+- `git commit -m "YOUR MESSAGE"` 
+    `-m` stands for message. There should be a message in order to commit your files.
+
+### git remote:
+- 
+
+### git push:
 `git push origin BRANCH_NAME`
 - origin: an option set for us. It's basically a word that stands for the location of our git repo. 
 - BRANCH_NAME: the branch that we want to push to.
+
+
+## starting git from github repo:
+- `git clone` -> edit files -> `git add` -> `git commit -m "MESSAGE"` -> `git push origin BRANCH_NAME`
+
+## starting git from local machine:
+- make a new empty repository in your github account giving the same name as the folder you want to upload(push)
+- copy the repository ssh address. (ex: git@github.com:ACCOUNT_NAME/REPOSITORY_NAME)
+- cd into folder you want to push to git
+- `git init` -> `git add .` -> `git commit -m "MESSAGE"` 
+- add remote origin(only for the first time): `git remote add origin git@github.com:ACCOUNT_NAME/REPOSITORY_NAME` 
+- use: `git remote -v` to see any remote repository that u've connected to the repo.
+- `git push origin BARNCH_NAME` : to push the folder contains to the repo. 
+\
+- set upstream just only to use `git push`: \
+    `git push -u origin BRANCH_NAME`
