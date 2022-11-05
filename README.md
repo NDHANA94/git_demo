@@ -101,6 +101,16 @@ Download changes from remote repo to your local machine, the oppesite of push.
     - use `git diff` to see modifications or `git status` to see curent status
     - add modified file to git: `git commit -am "updated index.html"` 
         here `-a` stands for add and `m` stands for message. This is a shortcut to add and commit using one command only for modifed files, not for newly created file.
-    - 
+    - switch to main/master/default branch : `git checkout main`
+    - modify differently the same line in the file as you modified before in quick-test branch.
+    - now seperate two branches has different code. 
+    - if u try to switch to quick-test branch again, u will get an error now. bcz u have local changes that line to that u added in main/master/default branch.  So, its says it's going to be over written if u change branches.
+    - So it's asking u to commit before you change. This way that line two will be saved to get in the master branch, and won't be lost when you change the branch.
+    - after u commit the master branch, now u can switch to other branch. 
+    - befor u merge master in to quick-test branch, try `git diff main`. it will show u the changes.
+    - merge: `git merge main` in man branch. now you will get a merge complex error.
+    - fixing merge complex: 
+        - if u use vs code, you will see in the file where merge complex happens. and vs code allows you to resolve it (resolve in merge editer).
+        - after resolving the merge complex, see `git status`.  It will show u that u have to commit again the feature (quick-test) branch.
 
 
