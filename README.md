@@ -95,7 +95,7 @@ Download changes from remote repo to your local machine, the oppesite of push.
 
 ## $${\color{green}{merge \ complex \ (PR):}}$$
 - When you are building your own code writing a bunch of code on your own branch, maybe other people are are writing their code in their branches. And master/main/default branch is getting updated from multiple different places. So it's possible for multiple people to change the same files. And so sometimes Git doesn't know which code you want to keep, or which code is redundant, or which code you want to get rid of. So you have to manually do that.
-- EX:
+    EX: /
     - create another branch: `git checkout -b quick-test`
     - modify the code.
     - use `git diff` to see modifications or `git status` to see curent status
