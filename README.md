@@ -93,7 +93,7 @@ Download changes from remote repo to your local machine, the oppesite of push.
 - to delete feature branch: `git branch -d BRANCH_NAME`
 
 
-## $${\color{green}{merge \ complex \ (PR):}}$$
+## $${\color{green}{merge \ complex \:}}$$
 - When you are building your own code writing a bunch of code on your own branch, maybe other people are are writing their code in their branches. And master/main/default branch is getting updated from multiple different places. So it's possible for multiple people to change the same files. And so sometimes Git doesn't know which code you want to keep, or which code is redundant, or which code you want to get rid of. So you have to manually do that.
     EX: /
     - create another branch: `git checkout -b quick-test`
@@ -115,3 +115,13 @@ Download changes from remote repo to your local machine, the oppesite of push.
         - after u made a commit, now u can merge main to quick-test branch using `git merge main`
 
 
+## $${\color{green}{undoing \ in \ git:}}$$
+If we have made a mistake (accidently add smth or commit smth to git, but we didn't meant to do it), we can undo our stages or our commit. 
+
+- `git reset` or `git reset FILE_TO_UNSTAGE` to undo add
+- `git reset HEAD~1` to undo last change and unstage
+- See log of all ur commits: `git log`
+
+
+
+have fun
