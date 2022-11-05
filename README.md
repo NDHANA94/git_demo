@@ -90,5 +90,5 @@ Download changes from remote repo to your local machine, the oppesite of push.
 - Once we have made a PR, anyone can review our code, comment on it, ask us to make changes or updates. 
 - After u make a PR, u can also update the code just by making additional commit and pushing them up to github, as long as it's on the same branch that you're making the PR with.
 - Once the PR is merged, you will generally delete your feature or source brance, And to switch back to the master branch. Then when you want to make additional coding changes, you will create another new branch, and start the process over make your commits; make your commits, make a PR and then merge again. 
-
+- to delete feature branch: `git branch -d BRANCH_NAME`
 
