@@ -127,5 +127,9 @@ If we have made a mistake (accidently add smth or commit smth to git, but we did
     `git reset --hard HASH_OF_COMMIT` to be completly removed
 
 
+## $${\color{green}{Forking \ in \ git:}}$$
+In github interface u can see a fork btn. Pressing this u can make a complete copy of the repository. 
+- why would u want to fork? : U dont have to fork ur repo, bcz u already have acces to all of the code of urs, but u don't for other people's repo. After u fork other repo, u have a complete copy of that repo which u have complete control to make any updates or changes that u want to this code. 
+- if u want to add ur updates to original repo, u will have to do a pull request in original repo. 
 
 
