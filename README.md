@@ -112,6 +112,6 @@ Download changes from remote repo to your local machine, the oppesite of push.
     - fixing merge complex: 
         - if u use vs code, you will see in the file where merge complex happens. and vs code allows you to resolve it (resolve in merge editer).
         - after resolving the merge complex, see `git status`.  It will show u that u have to commit again the feature (quick-test) branch.
-        - after u made a commit, now u can merge main to quick-test branch. 
+        - after u made a commit, now u can merge main to quick-test branch using `git merge main`
 
 
