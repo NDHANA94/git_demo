@@ -122,7 +122,7 @@ If we have made a mistake (accidently add smth or commit smth to git, but we did
 - `git reset` or `git reset FILE_TO_UNSTAGE` to undo add
 - `git reset HEAD~1` to undo last change and unstage
 - See log of all ur commits: `git log`
-- use hash of commit u can see in git-log to undo every thing after that stage. 
+- use hash of commit u can see in git-log to undo every thing after that stage. \
     `git reset HASH_OF_COMMIT` to be unstaged \
     `git reset --hard HASH_OF_COMMIT` to be completly removed
 
