@@ -86,6 +86,7 @@ Download changes from remote repo to your local machine, the oppesite of push.
 - Merge another branch to current branch: `git merge ANOTHER_BRANCH_NAME_TO_MERGE`
 
 ## $${\color{green}{pull \ request \ (PR):}}$$
+ `git pull BRANCH_NAME`
 - A request to have your code pulled into another branch.
 - Once we have made a PR, anyone can review our code, comment on it, ask us to make changes or updates. 
 - After u make a PR, u can also update the code just by making additional commit and pushing them up to github, as long as it's on the same branch that you're making the PR with.
