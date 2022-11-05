@@ -134,3 +134,7 @@ In github interface u can see a fork btn. Pressing this u can make a complete co
 
 
 ## $${\color{green}{push \ large \ files/folders:}}$$
+- usually git can push to repo less than 100Mb files.
+- In order to push larger than 100Mb, use: git lfs
+    - install git-lfs from : https://git-lfs.github.com
+    - 
